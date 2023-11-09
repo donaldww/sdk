@@ -1,0 +1,952 @@
+repo_name: donaldww/sdk
+report_id: 86bc69924657e07165540203db480479
+repo_type: Public
+timestamp: '2023-11-09T17:20:23+00:00'
+requested_by: stereotype441
+provider: github
+branch: main
+detected_tools_count: 80
+tools:
+- name: Assembly Language
+  description: A low-level programming language
+  website_url: https://en.wikipedia.org/wiki/Assembly_language
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4934/default_71f18bbdc61fb88cefb66415bb55dc6f1e60e5ec.png
+  detection_source: Repo Metadata
+- name: C lang
+  description: One of the most widely used programming languages of all time
+  website_url: http://en.wikipedia.org/wiki/C_(programming_language)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source: Repo Metadata
+- name: C++
+  description: Has imperative, object-oriented and generic programming features, while
+    also providing the facilities for low level memory manipulation
+  website_url: http://www.cplusplus.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1049/cplusplus.png
+  detection_source: Repo Metadata
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: Dart
+  description: A new web programming language with libraries, a virtual machine, and
+    tools
+  website_url: https://www.dartlang.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1646/Twitter-02.png
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source: pkg/native_assets_builder/test/test_projects/native_subtract/pubspec.yaml
+  last_updated_by: Konstantin Shcheglov
+  last_updated_on: 2019-01-31 22:26:59.000000000 Z
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  version: 3.0.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: pkg/vm_service_protos/pubspec.yaml
+  detection_source: pkg/vm_service_protos/pubspec.yaml
+  last_updated_by: Nate Bosch
+  last_updated_on: 2022-05-17 01:22:25.000000000 Z
+- name: CMake
+  description: 'An open-source system that manages the build process '
+  website_url: http://www.cmake.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/2424/0UlUI_y1_400x400.jpg
+  detection_source: Repo Metadata
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/scorecards-analysis.yml"
+  last_updated_by: Devon Carew
+  last_updated_on: 2023-05-22 18:23:46.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source: pkg/native_assets_builder/test/test_projects/native_subtract/pubspec.yaml
+  last_updated_by: Konstantin Shcheglov
+  last_updated_on: 2019-01-31 22:26:59.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: pkg/vm_service/pubspec.yaml
+  last_updated_by: scheglov@google.com
+  last_updated_on: 2013-10-25 23:59:38.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: ffi
+  website_url: https://github.com/ffi/ffi
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2558/111990.png
+  detection_source: samples/ffi/sqlite/pubspec.yaml
+  last_updated_by: Martin Kustermann
+  last_updated_on: 2023-01-23 09:10:23.000000000 Z
+- name: js
+  website_url: www.js.com
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/5588/jscom.png
+  detection_source: pkg/dev_compiler/pubspec.yaml
+  last_updated_by: Sigmund Cherem
+  last_updated_on: 2015-06-29 17:21:14.000000000 Z
+- name: test
+  website_url: test
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/5477/no-img-open-source.png
+  detection_source: samples/ffi/sqlite/pubspec.yaml
+  last_updated_by: Paul Berry
+  last_updated_on: 2023-04-12 12:23:00.000000000 Z
+- name: _fe_analyzer_shared
+  description: Logic that is shared between the front_end and analyzer packages
+  package_url: https://pub.dartlang.org/_fe_analyzer_shared
+  version: 61.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pkg/analyzer/pubspec.yaml
+  detection_source: pkg/sourcemap_testing/pubspec.yaml
+  last_updated_by: Kevin Moore
+  last_updated_on: 2021-10-27 23:15:56.000000000 Z
+- name: analysis_server
+  description: A server that performs analysis of Dart code over character streams
+    using JSON-RPC encoded information
+  package_url: https://pub.dartlang.org/analysis_server
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source: pkg/dartdev/pubspec.yaml
+  last_updated_by: Keerti Parthasarathy
+  last_updated_on: 2023-03-15 21:01:47.000000000 Z
+- name: analysis_server_client
+  description: A client wrapper over analysis_server
+  package_url: https://pub.dartlang.org/analysis_server_client
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source: pkg/dartdev/pubspec.yaml
+  last_updated_by: Daco Harkes
+  last_updated_on: 2023-05-30 09:10:28.000000000 Z
+- name: analyzer
+  description: This package provides a library that performs static analysis of Dart
+    code
+  package_url: https://pub.dartlang.org/analyzer
+  version: 5.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pkg/analyzer_plugin/pubspec.yaml
+  detection_source: runtime/tools/dartfuzz/pubspec.yaml
+  last_updated_by: Paul Berry
+  last_updated_on: 2023-04-21 18:43:33.000000000 Z
+- name: analyzer_plugin
+  description: A framework and support code for building plugins for the analysis
+    server
+  package_url: https://pub.dartlang.org/analyzer_plugin
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source: pkg/nnbd_migration/pubspec.yaml
+  last_updated_by: Paul Berry
+  last_updated_on: 2023-04-21 18:43:33.000000000 Z
+- name: args
+  description: Library for defining parsers for parsing raw command-line arguments
+    into a set of options and values using GNU and POSIX style options
+  package_url: https://pub.dartlang.org/args
+  version: 2.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pkg/dds/pubspec.yaml
+  detection_source: runtime/tools/heapsnapshot/pubspec.yaml
+  last_updated_by: Paul Berry
+  last_updated_on: 2023-04-21 18:43:33.000000000 Z
+- name: async
+  description: Utility functions and classes related to the 'dart:async' library
+  package_url: https://pub.dartlang.org/async
+  version: 2.4.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pkg/dds/pubspec.yaml
+  detection_source: pkg/vm_service/pubspec.yaml
+  last_updated_by: Devon Carew
+  last_updated_on: 2022-05-27 01:34:59.000000000 Z
+- name: bazel_worker
+  description: Protocol and utilities to implement or invoke persistent bazel workers
+  package_url: https://pub.dartlang.org/bazel_worker
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source: pkg/dev_compiler/pubspec.yaml
+  last_updated_by: Kevin Moore
+  last_updated_on: 2019-02-04 20:34:59.000000000 Z
+- name: browser_launcher
+  description: Provides a standardized way to launch web browsers for testing and
+    tools
+  package_url: https://pub.dartlang.org/browser_launcher
+  version: 1.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pkg/dds/pubspec.yaml
+  detection_source: pkg/dev_compiler/pubspec.yaml
+  last_updated_by: Ben Konyi
+  last_updated_on: 2022-01-18 22:42:05.000000000 Z
+- name: build_runner
+  description: A build system for Dart code generation and modular compilation
+  package_url: https://pub.dartlang.org/build_runner
+  version: 1.6.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: runtime/observatory/pubspec.yaml
+  detection_source: runtime/observatory_2/pubspec.yaml
+  last_updated_by: Ben Konyi
+  last_updated_on: 2020-08-21 21:44:50.000000000 Z
+- name: build_web_compilers
+  description: Builder implementations wrapping the dart2js and DDC compilers
+  package_url: https://pub.dartlang.org/build_web_compilers
+  version: 2.6.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: runtime/observatory/pubspec.yaml
+  detection_source: runtime/observatory_2/pubspec.yaml
+  last_updated_by: Ben Konyi
+  last_updated_on: 2020-08-21 21:44:50.000000000 Z
+- name: cli_util
+  description: A library to help in building Dart command-line apps
+  package_url: https://pub.dartlang.org/cli_util
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source: pkg/nnbd_migration/pubspec.yaml
+  last_updated_by: Paul Berry
+  last_updated_on: 2023-04-21 18:43:33.000000000 Z
+- name: collection
+  description: Collections and utilities functions and classes related to collections
+  package_url: https://pub.dartlang.org/collection
+  version: 1.17.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pkg/analyzer/pubspec.yaml
+  detection_source: pkg/vm_snapshot_analysis/pubspec.yaml
+  last_updated_by: Paul Berry
+  last_updated_on: 2023-04-21 18:43:33.000000000 Z
+- name: compiler
+  description: Compile files
+  package_url: https://pub.dartlang.org/compiler
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source: pkg/frontend_server/pubspec.yaml
+  last_updated_by: Paul Berry
+  last_updated_on: 2023-04-18 12:01:51.000000000 Z
+- name: convert
+  description: Utilities for converting between data representations
+  package_url: https://pub.dartlang.org/convert
+  version: 3.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pkg/analyzer/pubspec.yaml
+  detection_source: pkg/analyzer/pubspec.yaml
+  last_updated_by: Paul Berry
+  last_updated_on: 2023-04-21 18:43:33.000000000 Z
+- name: crypto
+  description: Implementations of SHA
+  package_url: https://pub.dartlang.org/crypto
+  version: 3.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pkg/analyzer/pubspec.yaml
+  detection_source: pkg/vm/pubspec.yaml
+  last_updated_by: Paul Berry
+  last_updated_on: 2023-04-21 18:43:33.000000000 Z
+- name: dart2js_info
+  description: Libraries and tools to process data produced when running dart2js with
+    --dump-info
+  package_url: https://pub.dartlang.org/dart2js_info
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source: pkg/compiler/pubspec.yaml
+  last_updated_by: Nate Bosch
+  last_updated_on: 2022-05-17 01:22:25.000000000 Z
+- name: dart_internal
+  description: This package is not intended for wide use
+  package_url: https://pub.dartlang.org/dart_internal
+  version: 0.2.7
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pkg/_fe_analyzer_shared/pubspec.yaml
+  detection_source: pkg/_fe_analyzer_shared/pubspec.yaml
+  last_updated_by: Jake Macdonald
+  last_updated_on: 2023-06-16 14:02:05.000000000 Z
+- name: dart_style
+  description: Opinionated, automatic Dart source code formatter
+  package_url: https://pub.dartlang.org/dart_style
+  version: 2.2.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pkg/analyzer_plugin/pubspec.yaml
+  detection_source: pkg/front_end/pubspec.yaml
+  last_updated_by: Paul Berry
+  last_updated_on: 2023-04-21 18:43:33.000000000 Z
+- name: dartdoc
+  description: A non-interactive HTML documentation generator for Dart source code
+  package_url: https://pub.dartlang.org/dartdoc
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source: pkg/dartdev/pubspec.yaml
+  last_updated_by: Nate Bosch
+  last_updated_on: 2022-05-17 01:22:25.000000000 Z
+- name: ffi
+  description: Utilities for working with Foreign Function Interface
+  package_url: https://pub.dartlang.org/ffi
+  version: 2.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: samples/ffi/sqlite/pubspec.yaml
+  detection_source: samples/ffi/sqlite/pubspec.yaml
+  last_updated_by: Martin Kustermann
+  last_updated_on: 2023-01-23 09:10:23.000000000 Z
+- name: fixnum
+  description: Library for 32- and 64-bit signed fixed-width integers with consistent
+    behavior between native and JS runtimes
+  package_url: https://pub.dartlang.org/fixnum
+  version: 1.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pkg/vm_service_protos/pubspec.yaml
+  detection_source: pkg/vm_service_protos/pubspec.yaml
+  last_updated_by: Nate Bosch
+  last_updated_on: 2022-05-17 01:22:25.000000000 Z
+- name: front_end
+  description: Front end for compilation of Dart code
+  package_url: https://pub.dartlang.org/front_end
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source: pkg/vm/pubspec.yaml
+  last_updated_by: Srujan Gaddam
+  last_updated_on: 2022-09-16 20:13:30.000000000 Z
+- name: glob
+  description: A library to perform Bash-style file and directory globbing
+  package_url: https://pub.dartlang.org/glob
+  version: 2.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pkg/analyzer/pubspec.yaml
+  detection_source: pkg/test_runner/pubspec.yaml
+  last_updated_by: Konstantin Shcheglov
+  last_updated_on: 2021-02-10 19:46:55.000000000 Z
+- name: graphs
+  description: Graph algorithms that operate on graphs in any representation
+  package_url: https://pub.dartlang.org/graphs
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source: pkg/native_assets_builder/pubspec.yaml
+  last_updated_by: Daco Harkes
+  last_updated_on: 2023-05-25 15:56:31.000000000 Z
+- name: http
+  description: A composable
+  package_url: https://pub.dartlang.org/http
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source: pkg/telemetry/pubspec.yaml
+  last_updated_by: Paul Berry
+  last_updated_on: 2023-04-21 18:43:33.000000000 Z
+- name: http_multi_server
+  description: A dart:io HttpServer wrapper that handles requests from multiple servers
+  package_url: https://pub.dartlang.org/http_multi_server
+  version: 3.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pkg/dds/pubspec.yaml
+  detection_source: pkg/dev_compiler/pubspec.yaml
+  last_updated_by: Derek Xu
+  last_updated_on: 2023-05-08 15:14:44.000000000 Z
+- name: js
+  description: Annotations to create static Dart interfaces for JavaScript APIs
+  package_url: https://pub.dartlang.org/js
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source: pkg/dev_compiler/pubspec.yaml
+  last_updated_by: Sigmund Cherem
+  last_updated_on: 2015-06-29 17:21:14.000000000 Z
+- name: json_rpc_2
+  description: Utilities to write a client or server using the JSON-RPC 2.0 spec
+  package_url: https://pub.dartlang.org/json_rpc_2
+  version: 3.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pkg/dds/pubspec.yaml
+  detection_source: pkg/vm/pubspec.yaml
+  last_updated_by: Ben Konyi
+  last_updated_on: 2021-05-12 22:31:01.000000000 Z
+- name: kernel
+  description: Dart IR
+  package_url: https://pub.dartlang.org/kernel
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source: pkg/vm/pubspec.yaml
+  last_updated_by: Nate Bosch
+  last_updated_on: 2022-05-17 01:22:25.000000000 Z
+- name: linter
+  description: The implementation of the lint rules supported by the analyzer framework
+  package_url: https://pub.dartlang.org/linter
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source: pkg/analyzer_plugin/pubspec.yaml
+  last_updated_by: Paul Berry
+  last_updated_on: 2023-04-21 18:43:33.000000000 Z
+- name: logging
+  description: Provides APIs for debugging and error logging
+  package_url: https://pub.dartlang.org/logging
+  version: 1.1.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pkg/native_assets_builder/test/test_projects/native_add/pubspec.yaml
+  detection_source: pkg/native_assets_builder/test/test_projects/native_subtract/pubspec.yaml
+  last_updated_by: Paul Berry
+  last_updated_on: 2023-04-21 18:43:33.000000000 Z
+- name: markdown
+  description: A portable Markdown library written in Dart that can parse Markdown
+    into HTML
+  package_url: https://pub.dartlang.org/markdown
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source: pkg/vm_service/pubspec.yaml
+  last_updated_by: Devon Carew
+  last_updated_on: 2022-05-20 18:44:12.000000000 Z
+- name: matcher
+  description: Support for specifying test expectations via an extensible Matcher
+    class
+  package_url: https://pub.dartlang.org/matcher
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source: pkg/analyzer/pubspec.yaml
+  last_updated_by: Paul Berry
+  last_updated_on: 2023-04-21 18:43:33.000000000 Z
+- name: meta
+  description: Annotations used to express developer intentions that can't otherwise
+    be deduced by statically analyzing source code
+  package_url: https://pub.dartlang.org/meta
+  version: 1.0.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pkg/_fe_analyzer_shared/pubspec.yaml
+  detection_source: pkg/telemetry/pubspec.yaml
+  last_updated_by: Paul Berry
+  last_updated_on: 2019-10-31 13:05:53.000000000 Z
+- name: mockito
+  description: A mock framework inspired by Mockito with APIs for Fakes
+  package_url: https://pub.dartlang.org/mockito
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source: pkg/vm_service/pubspec.yaml
+  last_updated_by: Devon Carew
+  last_updated_on: 2022-04-19 19:25:47.000000000 Z
+- name: package_config
+  description: Support for reading and writing Dart Package Configuration files
+  package_url: https://pub.dartlang.org/package_config
+  version: 2.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pkg/analyzer/pubspec.yaml
+  detection_source: pkg/vm/pubspec.yaml
+  last_updated_by: Devon Carew
+  last_updated_on: 2023-03-02 16:09:45.000000000 Z
+- name: path
+  description: A string-based path manipulation library
+  package_url: https://pub.dartlang.org/path
+  version: 1.8.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pkg/analyzer/pubspec.yaml
+  detection_source: runtime/tools/heapsnapshot/pubspec.yaml
+  last_updated_by: Paul Berry
+  last_updated_on: 2023-04-21 18:43:33.000000000 Z
+- name: pool
+  description: Manage a finite pool of resources
+  package_url: https://pub.dartlang.org/pool
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source: pkg/test_runner/pubspec.yaml
+  last_updated_by: Devon Carew
+  last_updated_on: 2020-08-19 15:17:22.000000000 Z
+- name: protobuf
+  description: Runtime library for protocol buffers support
+  package_url: https://pub.dartlang.org/protobuf
+  version: 3.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pkg/vm_service_protos/pubspec.yaml
+  detection_source: pkg/vm_service_protos/pubspec.yaml
+  last_updated_by: Nate Bosch
+  last_updated_on: 2022-05-17 01:22:25.000000000 Z
+- name: pub_semver
+  description: Versions and version constraints implementing pub's versioning policy
+  package_url: https://pub.dartlang.org/pub_semver
+  version: 2.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pkg/analyzer/pubspec.yaml
+  detection_source: pkg/vm_service/pubspec.yaml
+  last_updated_by: Devon Carew
+  last_updated_on: 2022-11-08 20:00:46.000000000 Z
+- name: shelf
+  description: A model for web server middleware that encourages composition and easy
+    reuse
+  package_url: https://pub.dartlang.org/shelf
+  version: 1.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pkg/dds/pubspec.yaml
+  detection_source: pkg/dev_compiler/pubspec.yaml
+  last_updated_by: Nate Bosch
+  last_updated_on: 2022-05-17 01:22:25.000000000 Z
+- name: shelf_proxy
+  description: A shelf handler for proxying HTTP requests to another server
+  package_url: https://pub.dartlang.org/shelf_proxy
+  version: 1.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pkg/dds/pubspec.yaml
+  detection_source: pkg/dds/pubspec.yaml
+  last_updated_by: Devon Carew
+  last_updated_on: 2022-05-27 01:34:59.000000000 Z
+- name: shelf_static
+  description: Static file server support for the shelf package and ecosystem
+  package_url: https://pub.dartlang.org/shelf_static
+  version: 1.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pkg/dds/pubspec.yaml
+  detection_source: pkg/dds/pubspec.yaml
+  last_updated_by: Devon Carew
+  last_updated_on: 2022-05-27 01:34:59.000000000 Z
+- name: shelf_web_socket
+  description: A shelf handler that wires up a listener for every connection
+  package_url: https://pub.dartlang.org/shelf_web_socket
+  version: 1.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pkg/dds/pubspec.yaml
+  detection_source: pkg/dds/pubspec.yaml
+  last_updated_by: Devon Carew
+  last_updated_on: 2022-05-27 01:34:59.000000000 Z
+- name: source_maps
+  description: A library to programmatically manipulate source map files
+  package_url: https://pub.dartlang.org/source_maps
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source: pkg/sourcemap_testing/pubspec.yaml
+  last_updated_by: Nate Bosch
+  last_updated_on: 2022-05-17 01:22:25.000000000 Z
+- name: source_span
+  description: Provides a standard representation for source code locations and spans
+  package_url: https://pub.dartlang.org/source_span
+  version: 1.8.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pkg/analyzer/pubspec.yaml
+  detection_source: pkg/sourcemap_testing/pubspec.yaml
+  last_updated_by: Konstantin Shcheglov
+  last_updated_on: 2021-02-10 19:46:55.000000000 Z
+- name: sse
+  description: Provides client and server functionality for setting up bi-directional
+    communication through Server Sent Events
+  package_url: https://pub.dartlang.org/sse
+  version: 4.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pkg/dds/pubspec.yaml
+  detection_source: pkg/dds/pubspec.yaml
+  last_updated_by: Ben Konyi
+  last_updated_on: 2020-03-19 23:36:45.000000000 Z
+- name: stack_trace
+  description: A package for manipulating stack traces and printing them readably
+  package_url: https://pub.dartlang.org/stack_trace
+  version: 1.10.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pkg/dds/pubspec.yaml
+  detection_source: pkg/telemetry/pubspec.yaml
+  last_updated_by: Nate Bosch
+  last_updated_on: 2022-05-17 01:22:25.000000000 Z
+- name: stream_channel
+  description: An abstraction for two-way communication channels based on the Dart
+    Stream class
+  package_url: https://pub.dartlang.org/stream_channel
+  version: 2.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pkg/dds/pubspec.yaml
+  detection_source: pkg/dds/pubspec.yaml
+  last_updated_by: Paul Berry
+  last_updated_on: 2023-04-21 18:43:33.000000000 Z
+- name: test
+  description: A full featured library for writing and running Dart tests across platforms
+  package_url: https://pub.dartlang.org/test
+  version: 1.23.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pkg/native_assets_builder/test/test_projects/native_add/pubspec.yaml
+  detection_source: samples/ffi/sqlite/pubspec.yaml
+  last_updated_by: Paul Berry
+  last_updated_on: 2023-04-12 12:23:00.000000000 Z
+- name: test_descriptor
+  description: An API for defining and verifying directory structures
+  package_url: https://pub.dartlang.org/test_descriptor
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source: pkg/analysis_server/pubspec.yaml
+  last_updated_by: Paul Berry
+  last_updated_on: 2023-04-21 18:43:33.000000000 Z
+- name: test_reflective_loader
+  description: Support for discovering tests and test suites using reflection
+  package_url: https://pub.dartlang.org/test_reflective_loader
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source: pkg/nnbd_migration/pubspec.yaml
+  last_updated_by: Paul Berry
+  last_updated_on: 2023-04-21 18:43:33.000000000 Z
+- name: usage
+  description: A Google Analytics wrapper for command-line
+  package_url: https://pub.dartlang.org/usage
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source: runtime/observatory_2/pubspec.yaml
+  last_updated_by: Devon Carew
+  last_updated_on: 2021-08-20 16:25:24.000000000 Z
+- name: vm_service
+  description: A library to communicate with a service implementing the Dart VM service
+    protocol
+  package_url: https://pub.dartlang.org/vm_service
+  version: 11.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pkg/dds/pubspec.yaml
+  detection_source: runtime/tools/heapsnapshot/pubspec.yaml
+  last_updated_by: Paul Berry
+  last_updated_on: 2023-04-21 18:43:33.000000000 Z
+- name: watcher
+  description: A file system watcher
+  package_url: https://pub.dartlang.org/watcher
+  version: 1.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pkg/analyzer/pubspec.yaml
+  detection_source: pkg/analyzer/pubspec.yaml
+  last_updated_by: Paul Berry
+  last_updated_on: 2023-04-21 18:43:33.000000000 Z
+- name: web_socket_channel
+  description: StreamChannel wrappers for WebSockets
+  package_url: https://pub.dartlang.org/web_socket_channel
+  version: 2.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pkg/dds/pubspec.yaml
+  detection_source: pkg/vm/pubspec.yaml
+  last_updated_by: Ben Konyi
+  last_updated_on: 2021-03-19 19:49:08.000000000 Z
+- name: webdriver
+  description: Provides WebDriver bindings for Dart
+  package_url: https://pub.dartlang.org/webdriver
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source: pkg/test_runner/pubspec.yaml
+  last_updated_by: Devon Carew
+  last_updated_on: 2022-05-27 01:34:59.000000000 Z
+- name: webkit_inspection_protocol
+  description: A client for the Chrome DevTools Protocol
+  package_url: https://pub.dartlang.org/webkit_inspection_protocol
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source: pkg/dev_compiler/pubspec.yaml
+  last_updated_by: Nate Bosch
+  last_updated_on: 2022-05-17 01:22:25.000000000 Z
+- name: yaml
+  description: A parser for YAML
+  package_url: https://pub.dartlang.org/yaml
+  version: 3.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pkg/analyzer/pubspec.yaml
+  detection_source: pkg/vm/pubspec.yaml
+  last_updated_by: Paul Berry
+  last_updated_on: 2023-04-21 18:43:33.000000000 Z
